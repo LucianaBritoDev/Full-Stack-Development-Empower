@@ -1,0 +1,43 @@
+header {
+  color: black;
+  border: solid 2px black;
+}
+
+h1 {
+  color: green;
+  border: solid 2px green;
+}
+
+h2 {
+  color: orange;
+  border: solid 2px orange;
+}
+
+.orange {
+  color: orange;
+}
+
+.blue {
+  color: blue;
+  border: solid 2px blue;
+}
+
+.brown {
+  color: brown;
+  background-color: burlywood;
+}
+
+.black {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.pink {
+  color: white;
+  background-color: pink;
+}
+
+.footer {
+  color: red;
+  border: solid 2px red;
+}/*# sourceMappingURL=style.css.map */
