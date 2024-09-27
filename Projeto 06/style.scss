@@ -1,0 +1,54 @@
+/*
+seletor {
+      propriedade: valor;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: burlywood;
+  height: 50px;
+  padding-top: 5px;
+  padding-left: 35px;
+}
+
+// Nesting / Aninhamento
+
+article {
+  border: solid brown 2px;
+  background-color: burlywood;
+  width: 300px;
+  height: 220px;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-left: 3px;
+  display: inline-block;
+
+  figure {
+    border: solid brown 2px;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    img {
+      width: 120px;
+      height: 120px;
+    }
+
+    figcaption {
+      color: brown;
+    }
+  }
+  button {
+    border: solid brown 2px;
+    color: brown;
+    background-color: burlywood;
+  }
+}
