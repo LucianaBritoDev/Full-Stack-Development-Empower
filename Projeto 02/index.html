@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semânico e Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>Os Vingadores</h1>
+
+      <img
+        src="https://th.bing.com/th/id/OIP.DHE5jTDwkWg7vbFtoL6QbQHaHa?pid=ImgDet&w=208&h=208&c=7&dpr=1,5"
+        alt="Logo dos Vingadores"
+      />
+      <nav>
+        <a href="">Início</a>
+        <a href="">Sobre</a>
+        <a href="">Cadastro</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Sobre os Vingadores</h2>
+        <p></p>
+        <img
+          src="https://th.bing.com/th/id/OIP.DM-9beA-h0YtwthotiEeZQHaE8?pid=ImgDet&w=208&h=138&c=7&dpr=1,5"
+          alt="Banner com os personagens do filme - Os Vingadores"
+        />
+      </section>
+
+      <section>
+        <h2>Alguns personagens:</h2>
+        <article>
+          <img
+            src="https://i.pinimg.com/originals/f7/7b/c2/f77bc270ba46bf99e41114dcd668feba.jpg"
+            alt=""
+          />
+          <h3>Thor</h3>
+          <p>
+            Thor era uma divindade da mitologia nórdica e reconhecido como o
+            deus do trovão, das tempestades e da agricultura. Originário da
+            cultura germânica, é reconhecido pelos historiadores como o deus
+            mais popular entre os nórdicos da Era Viking. Filho de Odin, era
+            tido como o mais poderoso do panteão nórdico.
+          </p>
+        </article>
+        <article>
+          <img
+            src="https://i.pinimg.com/originals/53/11/79/5311796f48488ab01dbda05bf358e1f5.jpg"
+            alt="Imagem do Homem de Ferro"
+          />
+          <h3>Homem de Ferro</h3>
+          <p>
+            O alter-ego do Homem de Ferro é o bilionário Tony Stark. Mas, antes
+            de ser bilionário, Tony era apenas o filho único da família Stark.
+            Com uma relação ruim com seu pai – Howard Stark -, ele acabou sendo
+            enviado para um internato aos seis anos de idade. Em meio a
+            estudantes do ensino médio, Tony acabou se destacando como gênio
+            prodígio.Quando tinha 15 anos, Tony ingressou no programa de
+            graduação do MIT, onde se tornou mestre em física e engenharia
+            elétrica. Enquanto estudava, também conheceu outro jovem gênio:
+            Bruce Banner. Ao longo da vida, Tony e Bruce desenvolveram uma
+            grande rivalidade científica. Aos 20 anos, Tony acabou se voltando
+            para uma vida ociosa e nômade. Depois de se envolver com mulheres
+            ligadas aos rivais de seu pai, Tony foi proibido de se relacionar e
+            decidiu passar a curtir a vida viajando o mundo. Entretanto, aos 21
+            anos, precisou voltar para casa, depois que seus pais foram mortos e
+            ele foi apontado como principal herdeiro das Indústrias Stark.
+          </p>
+        </article>
+
+        <article>
+          <img
+            src="https://th.bing.com/th/id/OIP.-xwYHhmEg5fyO8j8xA1fiQHaKm?rs=1&pid=ImgDetMain"
+            alt="Capitão América"
+          />
+          <h3>Capitão América</h3>
+          <p>
+            Steven "Steve" Rogers também conhecido como o Capitão América, o
+            Primeiro Vingador, foi rejeitado pelo exército americano durante a
+            Segunda Guerra Mundial devido a vários problemas de saúde. No final
+            das contas, ele se ofereceu como voluntário para o Projeto
+            Renascimento, onde recebeu o Soro do Supersoldado desenvolvido pelo
+            Dr. Abraham Erskine. O soro melhorou muito seu corpo frágil ao auge
+            da fisicalidade humana. Como o Sentinela da Liberdade, ao lado de
+            seu melhor amigo Bucky Barnes e os Invasores, Rogers e outros
+            ajudaram os aliados a ganhar a guerra, mas não antes de ele se
+            perder no mar e congelado em uma forma de animação suspensa por
+            décadas. Ele foi descongelado na era moderna para continuar a
+            batalha ao lado de seus novos aliados, os Vingadores Capitão América
+            não é leal a nenhum político ou governo e, em vez disso, defende os
+            "princípios atemporais de liberdade, igualdade e justiça do sonho
+            americano".
+          </p>
+        </article>
+
+        <article>
+          <img
+            src="https://i.pinimg.com/originals/3e/2f/6a/3e2f6a9ce186fe59b4a7d392e1c96764.jpg"
+            alt="Hulk"
+          />
+          <h3>Hulk</h3>
+          <p>
+            Hulk é o alter ego de Robert Bruce Banner, um cientista com
+            transtorno dissociativo de identidade, que após ser irradiado por
+            raios gama fez emergir uma personalidade alternativa altamente
+            raivosa, que se manifesta transformando Banner em um homem verde e
+            musculoso com força e resistência sobre-humanas.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Meu primeiro formulário</h2>
+
+        <form action="">
+          <fieldset>
+            <fieldset>
+              <label for="nome">Nome:</label>
+
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Digite seu nome"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="exemplo@email.com"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="senha">Senha:</label>
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Digite sua senha"
+                required
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="">Idade:</label>
+              <input
+                type="number"
+                name="idade"
+                id="idade"
+                placeholder="Digite sua idade"
+                required
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="">Qual é o melhor Vingador?</label>
+
+              <label for="homemDeFerro">Homem de Ferro</label>
+              <input type="radio" name="vingador" id="HomemFerro" required />
+
+              <label for="thor">Thor</label>
+              <input type="radio" name="vingador" id="Thor" required />
+
+              <label for="capitãoAmérica">Capitão América</label>
+              <input
+                type="radio"
+                name="vingador"
+                id="CapitãoAmérica"
+                required
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for=""
+                >Selecione quais filmes dos Vingadores você assistiu:</label
+              >
+              <input type="checkbox" name="" id="" />
+
+              <label for="primeiro">Os Vingadores:</label>
+              <input type="checkbox" name="primeiro" id="primeiro" required />
+
+              <label for="ultron">Era de Ultron</label>
+              <input type="checkbox" name="ultron" id="ultron" required />
+
+              <label for="infinita">Guerra Infinita:</label>
+              <input type="checkbox" name="infinita" id="infinita" required />
+
+              <label for="ultimato">Ultimato</label>
+              <input type="checkbox" name="ultimato" id="ultimato" required />
+
+              <label for="nenhum">Nenhum deles:</label>
+              <input type="checkbox" name="nenhum" id="nenhum" required />
+            </fieldset>
+            <input type="submit" value="ENVIAR" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Todos os direitos reservados ao VNW - 2024</p>
+    </footer>
+  </body>
+</html>
