@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.explicacaoBoxSizing {
+  background-color: aquamarine;
+  height: 250px;
+  width: 250px;
+  border: solid whitesmoke 20px;
+  padding: 10px;
+}
+
+.exemploElementoBlock {
+  border: solid rgb(248, 144, 200) 3px;
+}
+
+.exemploElementoInline {
+  border: solid rgb(156, 236, 156);
+}
+
+.exemploInlineBlock {
+  background-color: pink;
+}
+.exemploInlineBlock h1 {
+  border: solid 5px rgb(228, 95, 117);
+  display: inline-block;
+}
+.exemploInlineBlock h2 {
+  border: solid 5px rgb(245, 76, 206);
+  display: inline-block;
+}
+
+.exemploRGB {
+  background-color: rgb(235, 232, 147);
+}
+
+.exemploHexadecimal {
+  background-color: #b4fbb4;
+  font-size: 50px;
+}/*# sourceMappingURL=style.css.map */
