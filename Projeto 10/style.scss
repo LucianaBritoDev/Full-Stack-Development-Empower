@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: tomato;
+  height: 56vh;
+  display: flex;
+  justify-content: space-between;
+  //justify-content: eixo X
+  //flex-start: alinha todos os itens à esquerda
+  //flex-end: alinha todos os itens à direita
+  //center: alinha todos os itens ao meio
+  //space-evenly: espaçamento uniforme
+  //space-around: espaçamento igual em volta entre os itens
+  //space-between: espaçamento entre os itens
+  //align-items: eixo Y
+
+  //align-items:
+  //flex-start: coloca todos os itens no topo da caixa
+  //center: coloca todos os itens no meio da caixa
+  //flex-end: coloca todos os itens no final da caixa
+}
+
+div {
+  background-color: aquamarine;
+  height: 14vh;
+  width: 28vw;
+}
+
+.vermelho {
+  background-color: red;
+}
+.roxo {
+  background-color: purple;
+}

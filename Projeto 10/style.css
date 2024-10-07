@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: tomato;
+  height: 56vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  background-color: aquamarine;
+  height: 14vh;
+  width: 28vw;
+}
+
+.vermelho {
+  background-color: red;
+}
+
+.roxo {
+  background-color: purple;
+}/*# sourceMappingURL=style.css.map */
