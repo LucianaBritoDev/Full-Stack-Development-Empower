@@ -11,38 +11,39 @@ seletor {
 
 header {
   background-color: burlywood;
-  height: 50px;
+  height: 80px;
   padding-top: 5px;
   padding-left: 35px;
 }
+header h1 {
+  color: brown;
+  padding-bottom: 10px;
+}
 
 article {
-  border: solid brown 2px;
   background-color: burlywood;
-  width: 300px;
-  height: 220px;
-  margin-top: 15px;
-  margin-left: 5px;
-  padding-top: 5px;
+  width: 200px;
+  height: 190px;
+  margin-top: 12px;
+  margin-left: 12px;
+  padding-top: 3px;
   padding-left: 3px;
-  display: inline-block;
+  display: flex;
 }
 article figure {
-  border: solid brown 2px;
-  padding-left: 40px;
-  padding-top: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
   margin-left: 5px;
   margin-top: 5px;
 }
 article figure img {
-  width: 120px;
+  width: 140px;
   height: 120px;
+  margin: 0;
 }
 article figure figcaption {
   color: brown;
-}
-article button {
-  border: solid brown 2px;
-  color: brown;
-  background-color: burlywood;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */

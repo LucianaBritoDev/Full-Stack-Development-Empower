@@ -12,43 +12,45 @@ seletor {
 
 header {
   background-color: burlywood;
-  height: 50px;
+  height: 80px;
   padding-top: 5px;
   padding-left: 35px;
+
+  h1 {
+    color: brown;
+    padding-bottom: 10px;
+  }
 }
 
 // Nesting / Aninhamento
 
 article {
-  border: solid brown 2px;
   background-color: burlywood;
-  width: 300px;
-  height: 220px;
-  margin-top: 15px;
-  margin-left: 5px;
-  padding-top: 5px;
+  width: 200px; // largura
+  height: 190px; // altura
+  margin-top: 12px;
+  margin-left: 12px;
+  padding-top: 3px;
   padding-left: 3px;
-  display: inline-block;
+  display: flex;
 
   figure {
-    border: solid brown 2px;
-    padding-left: 40px;
-    padding-top: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
     margin-left: 5px;
     margin-top: 5px;
 
     img {
-      width: 120px;
-      height: 120px;
+      width: 140px; // largura
+      height: 120px; // altura
+      margin: 0;
     }
 
     figcaption {
       color: brown;
+      text-align: center;
+      margin: auto;
+      font-size: 16px;
     }
-  }
-  button {
-    border: solid brown 2px;
-    color: brown;
-    background-color: burlywood;
   }
 }
