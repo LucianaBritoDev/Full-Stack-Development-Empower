@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: aqua;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.primeiraSessao {
+  height: 580px;
+  background-image: url("./img/game.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  text-align: right;
+}
+.primeiraSessao p {
+  width: 350px;
+  margin-top: 20px;
+  line-height: 20px;
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
