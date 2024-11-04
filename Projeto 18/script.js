@@ -78,7 +78,7 @@ const devsSeniors = [
 console.log(devsSeniors);
 
 //Para acessar a comida preferida do Richard.
-console.log(devsseniors[1].comidaPreferida);
+console.log(devsSeniors[1].comidaPreferida);
 
 //Para adicionar um novo objeto no final do Array:
 devsSeniors.push({
@@ -92,3 +92,34 @@ console.log(devsSeniors);
 
 delete devsSeniors[4].corFavorita;
 console.log(devsSeniors);
+
+let frequenciaAluno = 95;
+let softSkills = true;
+let entregaDesafios = false;
+
+if (frequenciaAluno >= 75 && softSkills && entregaDesafios) {
+  console.log("Você receberá o certificado de Dev FullStack");
+} else {
+  console.log("Sinto muito! Reprovado!");
+}
+
+let idade = 45;
+
+if (idade < 12) {
+  console.log("Criança");
+} else if (idade <= 18) {
+  console.log("Adolescente");
+} else if (idade <= 60) {
+  console.log("Adulto");
+} else {
+  console.log("idoso");
+}
+
+let palavraMagica1 = "abracadabra";
+let palavraMagica2 = "shazam";
+
+if (palavraMagica1 === "abracadabra" || palavraMagica2 === "alakazam") {
+  console.log("O portal se abriu!");
+} else {
+  console.log("A magia falhou! Tente outra vez");
+}
